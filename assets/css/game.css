@@ -1,0 +1,71 @@
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%;
+	float: center;
+
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+	line-height: 1.5;
+	}
+
+div.header, div.crystals{
+	background-color: #e0e0eb;
+}
+
+div.header, div.instructions{
+	width: 50%;
+	box-align: center;
+}
+
+.userTotal{
+	float: right;
+	width: 25%;
+	height: 60px;
+}
+
+.numberToMatch {
+	float: right;
+	width: 25%;
+	height: 60px;
+}
+
+.crystals{
+	float: left;
+}
+.crystalImage{
+	width: 50%;
+	height: 60px;
+	margin: 10px;
+}
+
+.winsAndLosses{
+	float: right;
+	width: 25%;
+	height: 60px;
+}
+
+#one {
+	color: #3092c7;
+}
+#two {
+	color: #00aa59;
+}
+#three {
+	color: #ec4b5f;
+}
+#four {
+	color: #ffc225;
+}
