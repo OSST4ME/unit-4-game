@@ -1,71 +1,101 @@
-div{
-	background-color: white;
+body {
+
+	background-image: url("images/background.png")
+}
+
+div {
+
+	background-color: rgb(201, 160, 160);
 	margin: 10px;
 	width: 25%;
 	float: center;
+}
 
-}
-div{
+div {
+
 	border: solid 2px antiquewhite;
-	padding: 10px;
+	padding: 20px;
 }
-h1, h3, span{
+
+h1, h3, span {
+
 	font-weight: bold;
 	text-align: center;
 }
-h1{
+
+h1 {
+
 	font-size: 30pt;
 }
-ol{
+
+ol {
+
 	list-style: decimal inside; 
 	line-height: 1.5;
-	}
-
-div.header, div.crystals{
-	background-color: #e0e0eb;
 }
 
-div.header, div.instructions{
+div.header {
+
+	background-color: #eeea05;
+}
+
+div.header, div.instructions {
+
 	width: 50%;
 	box-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.userTotal{
-	float: right;
+.numberToMatch {
+
+	float: left;
+	margin-left: 22%;
 	width: 25%;
 	height: 60px;
 }
 
-.numberToMatch {
-	float: right;
+.userTotal {
+	 
+	float: left;
 	width: 25%;
 	height: 60px;
 }
 
 .crystals{
-	float: left;
-}
-.crystalImage{
-	width: 50%;
+
+	border: none;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	width: 35%;
+	}
+
+.crystalImage {
+
+	width: 30%;
 	height: 60px;
 	margin: 10px;
 }
 
-.winsAndLosses{
+.wins {
+
+	clear: both;	
 	float: right;
-	width: 25%;
-	height: 60px;
+	width: 20%;
+	height: 20px;
+	text-align: right;
 }
 
-#one {
-	color: #3092c7;
+.losses {
+
+	float: right:
+	width: 20%;
+	height: 20px;
+	text-align: right;
 }
-#two {
-	color: #00aa59;
-}
-#three {
-	color: #ec4b5f;
-}
-#four {
-	color: #ffc225;
-}
+
+
+
+
